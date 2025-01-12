@@ -1,0 +1,20 @@
+{
+  "name": "@toopixel/obs-websocket",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsup"
+  },
+  "type": "commonjs",
+  "main": "./src/index.js",
+  "module": "./dist/index.d.mts",
+  "types": "./dist/index.d.ts",
+  "private": true,
+  "dependencies": {
+    "obs-websocket-js": "^5.0.6",
+    "tslib": "^2.3.0",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "tsup": "^8.3.5"
+  }
+}
